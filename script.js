@@ -120,7 +120,7 @@
     waMessage += 'Terima kasih, saya menunggu informasi lebih lanjut.';
 
     var encodedMessage = encodeURIComponent(waMessage);
-    var waURL = 'https://wa.me/6282133932627?text=' + encodedMessage;
+    var waURL = 'https://wa.me/6282133938687?text=' + encodedMessage;
 
     window.open(waURL, '_blank');
     showToast('Mengarahkan ke WhatsApp...');
