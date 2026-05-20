@@ -107,7 +107,7 @@
       return;
     }
 
-    var waMessage = 'Halo PrintKarya Digital!\n\n';
+    var waMessage = 'Halo PixPuri!\n\n';
     waMessage += '*Formulir Permintaan*\n';
     waMessage += '\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\n';
     waMessage += 'Nama: ' + name + '\n';
