@@ -39,6 +39,41 @@ a{text-decoration:none;color:inherit}
 .container{max-width:1200px;margin:0 auto;padding:0 24px}
 
 /* ================= NAVBAR ================= */
+/* Center only nav-links (menu) horizontally in navbar */
+.navbar .container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+.nav-logo {
+  position: absolute;
+  left: 24px;
+  top: 50%;
+  transform: translateY(-50%);
+}
+.nav-links {
+  flex: 0 1 auto;
+  display: flex;
+  gap: 36px;
+  list-style: none;
+  justify-content: center;
+  margin: 0 auto;
+}
+.nav-toggle {
+  position: absolute;
+  right: 24px;
+  top: 50%;
+  transform: translateY(-50%);
+}
+@media (max-width: 900px) {
+  .nav-logo {
+    left: 16px;
+  }
+  .nav-toggle {
+    right: 16px;
+  }
+}
 .navbar{position:fixed;top:0;left:0;right:0;z-index:1000;padding:18px 0;transition:var(--transition)}
 .navbar.scrolled{background:rgba(10,10,10,0.96);backdrop-filter:blur(16px);padding:12px 0;border-bottom:1px solid rgba(255,255,255,0.05)}
 .navbar .container{display:flex;align-items:center;justify-content:space-between}
